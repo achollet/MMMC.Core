@@ -15,7 +15,7 @@ public class CalculationMethods
 
     public List<long> PrimeNumberDecomposition(long l)
     {
-        throw new NotImplementedException('design test fisrt');
+            return new List<long>();
     }
 
     private List<long> PrimeNumberList(long l)
@@ -24,7 +24,7 @@ public class CalculationMethods
         if (l > 0)
             primeNumberList.Add(1); 
 
-        for (var i = 1, i <= l ; i ++)
+        for (long i = 1; i <= l ; i ++)
         {
             if (i%2!= 0)
             {
@@ -32,7 +32,7 @@ public class CalculationMethods
                 foreach (var prime in primeNumberList)
                 {
                     if (i%prime ==0)
-                        var isPrime = false;
+                        isPrime = false;
                 }
 
                 if (isPrime)
