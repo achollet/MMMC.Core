@@ -11,3 +11,17 @@
 /Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common.Test/bin/Debug/netcoreapp1.1/Common.pdb
 /Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common.Test/obj/Debug/netcoreapp1.1/Common.Test.dll
 /Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common.Test/obj/Debug/netcoreapp1.1/Common.Test.pdb
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\bin\Debug\netcoreapp1.1\Common.Test.deps.json
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\bin\Debug\netcoreapp1.1\Common.Test.runtimeconfig.json
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\bin\Debug\netcoreapp1.1\Common.Test.runtimeconfig.dev.json
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\bin\Debug\netcoreapp1.1\Common.Test.dll
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\bin\Debug\netcoreapp1.1\Common.Test.pdb
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\bin\Debug\netcoreapp1.1\Common.dll
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\bin\Debug\netcoreapp1.1\Common.pdb
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\obj\Debug\netcoreapp1.1\Common.Test.csproj.CoreCompileInputs.cache
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\obj\Debug\netcoreapp1.1\Common.Test.AssemblyInfo.cs
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\obj\Debug\netcoreapp1.1\Common.Test.dll
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common.Test\obj\Debug\netcoreapp1.1\Common.Test.pdb

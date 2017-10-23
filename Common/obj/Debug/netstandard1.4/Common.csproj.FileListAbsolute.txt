@@ -4,3 +4,10 @@
 /Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common/bin/Debug/netstandard1.4/Common.pdb
 /Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common/obj/Debug/netstandard1.4/Common.dll
 /Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common/obj/Debug/netstandard1.4/Common.pdb
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common\bin\Debug\netstandard1.4\Common.deps.json
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common\obj\Debug\netstandard1.4\Common.csproj.CoreCompileInputs.cache
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common\obj\Debug\netstandard1.4\Common.AssemblyInfo.cs
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common\obj\Debug\netstandard1.4\Common.dll
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common\obj\Debug\netstandard1.4\Common.pdb
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common\bin\Debug\netstandard1.4\Common.dll
+C:\Documents\achollet\MMMC.Core\MMMC.Core\Common\bin\Debug\netstandard1.4\Common.pdb

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Common.Test
@@ -30,5 +31,14 @@ namespace Common.Test
 
             Assert.AreEqual(result,expected);
         } 
+
+        [TestMethod]
+        public void ReturnGivenTheValueOf30()
+        {
+            var expected = new List<long>(){1,2,3,5};
+            var result = _calculationMethods.PrimeNumberDecomposition(30);
+
+            Assert.AreEqual(result,expected);
+        }
     }
 }

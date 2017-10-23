@@ -15,12 +15,12 @@ public class CalculationMethods
 
     public List<long> PrimeNumberDecomposition(long l)
     {
-
+            return new List<long>();
     }
 
     private List<long> PrimeNumberList(long l)
     {
-        
+        return new List<long>();
     } 
 
 }
