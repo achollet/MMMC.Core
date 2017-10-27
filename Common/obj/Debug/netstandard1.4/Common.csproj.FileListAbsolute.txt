@@ -1,6 +1,0 @@
-/Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common/bin/Debug/netstandard1.4/Common.deps.json
-/Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common/obj/Debug/netstandard1.4/Common.AssemblyInfo.cs
-/Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common/bin/Debug/netstandard1.4/Common.dll
-/Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common/bin/Debug/netstandard1.4/Common.pdb
-/Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common/obj/Debug/netstandard1.4/Common.dll
-/Volumes/HHD-Data/Development/GitHub/MMMC.Core/Common/obj/Debug/netstandard1.4/Common.pdb
