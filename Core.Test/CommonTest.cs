@@ -39,7 +39,7 @@ namespace Core.Test
         {
             var common = new Common();
             
-            var result1 = common.IsPrimeNumber(5);
+            var result1 = common.IsPrimeNumber(7);
             var result2 = common.IsPrimeNumber(23);
 
             Assert.IsTrue(result1);
@@ -75,27 +75,23 @@ namespace Core.Test
 
         public bool IsPrimeNumber(int number)
         {
-            if (number == 1)
-                return true;
+            var factor = 1;
 
-            if (number == 2 )
-                return true;
-
-            if (number != 2 && number%2 == 0)
-                return false;
-
-            var listMultiple = new List<int>();
-
-            for (var i=1; i <= number; i++)
+            if (number%2==0 && number > 2)
             {
-                if (number%i == 0)
-                    listMultiple.Add(i);
-            }    
+                return false;
+            }
 
-            if (listMultiple.Count == 2 && !listMultiple.Any(m => m == 1 || m == number))
-                return true;
+            while (factor <= Math.Sqrt(number))
+            {
+                if (number%factor==0)
+                {
+                    return false;
+                }
+                factor++;
+            }
 
-            return false;
+            return true;
         }
     }
 }
