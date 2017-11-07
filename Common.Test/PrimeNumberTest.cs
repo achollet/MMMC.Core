@@ -9,13 +9,22 @@ namespace Common.Test
         [DataTestMethod]
         [DataRow(1)]
         [DataRow(2)]
+        [DataRow(3)]
         [DataRow(5)]
-        [DataRow(17)]
-        public void ReturnTrueWhenPassingAPrimeNumber(int value)
+        [DataRow(23)]
+        public void IsPrimeNumber(int value)
         {
-            var primeNumber = new PrimeNumber();
+            Assert.IsTrue(PrimeNumber.IsPrimeNumber(value));
+        }
 
-            Assert.IsTrue(primeNumber.IsPrimeNumber(value));
+        [DataTestMethod]
+        [DataRow(-1)]
+        [DataRow(0)]
+        [DataRow(9)]
+        [DataRow(12)]
+        public void IsNotPrimeNumber(int value)
+        {
+            Assert.IsFalse(PrimeNumber.IsPrimeNumber(value));
         }
     }
 }

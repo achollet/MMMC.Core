@@ -4,22 +4,22 @@ namespace Common
 {
     public class PrimeNumber
     {
-        public bool IsPrimeNumber(int number)
+        public static bool IsPrimeNumber(int number)
         {
-            var factor = 1;
+            var primeFactor = 1;
 
-            if (number%2==0 && number > 2)
-            {
+            if (number <= 0)
                 return false;
-            }
 
-            while (factor <= Math.Sqrt(number))
+            if (number > 2 && number % 2 == 0)
+                return false;
+
+            while (primeFactor <= Math.Sqrt(number))
             {
-                if (number%factor==0)
-                {
+                if (number % primeFactor == 0 && primeFactor!=1)
                     return false;
-                }
-                factor++;
+
+                primeFactor++;
             }
 
             return true;
