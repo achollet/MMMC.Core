@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Common
 {
-    public class PrimeNumber
+    public class PrimeNumber : IPrimeNumber
     {
-        public static bool IsPrimeNumber(int number)
+        public bool IsPrimeNumber(int number)
         {
             var primeFactor = 2;
 
@@ -26,12 +27,25 @@ namespace Common
             return true;
         }
 
-        public static List<int> PrimeNumberList(int n)
+        public List<int> PrimeNumberList(int listSize)
         {
             var primeNumberList = new List<int>();
 
-            if (n > 0) 
+            if (listSize > 0) 
                 primeNumberList.Add(2);
+
+            var nextNumber = 3;
+
+            while (primeNumberList.Count < listSize)
+            {
+                if (nextNumber%2!=0)
+                {
+                    if (!primeNumberList.Any(n => nextNumber%n==0))
+                    primeNumberList.Add(nextNumber);
+                }
+                
+                nextNumber++;
+            }
 
             return primeNumberList;
         }
