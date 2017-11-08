@@ -49,5 +49,12 @@ namespace Common.Test
             Assert.AreEqual(value, result.Count);
             Assert.IsTrue(result.All(n => _primeNumber.IsPrimeNumber(n)));
         }
+
+        // [DataTestMethod]
+        // [Data]
+        // public void ReturnListOfPrimeNumber(int value1, int[] value2)
+        // {
+
+        // }
     }
 }

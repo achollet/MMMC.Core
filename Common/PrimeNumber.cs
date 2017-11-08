@@ -49,5 +49,10 @@ namespace Common
 
             return primeNumberList;
         }
+
+        public List<int> DecompositionInPrimeNumber(int number)
+        {
+            return new List<int>();
+        }
     }
 }
