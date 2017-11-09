@@ -50,11 +50,14 @@ namespace Common.Test
             Assert.IsTrue(result.All(n => _primeNumber.IsPrimeNumber(n)));
         }
 
-        // [DataTestMethod]
-        // [Data]
-        // public void ReturnListOfPrimeNumber(int value1, int[] value2)
-        // {
+        [DataTestMethod]
+        [DataRow(6, [2,3])]
+        public void ReturnListOfPrimeNumber(int value1, int[] value2)
+        {
+            var result = _primeNumber.DecompositionInPrimeNumber(value1);
 
-        // }
+            Assert.AreEqual(value2.Count(), result.Count);
+
+        }
     }
 }

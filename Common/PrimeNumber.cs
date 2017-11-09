@@ -52,7 +52,19 @@ namespace Common
 
         public List<int> DecompositionInPrimeNumber(int number)
         {
-            return new List<int>();
+            var listOfPrimeNumber = new List<int>();
+            if (number%2== 0)
+            {
+                listOfPrimeNumber.Add(2);
+                number = number/2;
+            }
+
+            while(number > 1)
+            {
+                break;
+            }
+
+            return listOfPrimeNumber;
         }
     }
 }
