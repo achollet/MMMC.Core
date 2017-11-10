@@ -53,15 +53,17 @@ namespace Common
         public List<int> DecompositionInPrimeNumber(int number)
         {
             var listOfPrimeNumber = new List<int>();
-            if (number%2== 0)
-            {
-                listOfPrimeNumber.Add(2);
-                number = number/2;
-            }
+            var primeNumbers = PrimeNumberList((int)(Math.Floor(Math.Sqrt(number)))).ToArray();
+            var primeNumberIndex = 0;
 
             while(number > 1)
             {
-                break;
+                if (number%primeNumbers[primeNumberIndex] == 0)
+                {
+                    number /= primeNumbers[primeNumberIndex];
+                    listOfPrimeNumber.Add(primeNumbers[primeNumberIndex]);
+                }
+                primeNumberIndex ++;
             }
 
             return listOfPrimeNumber;
