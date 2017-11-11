@@ -50,14 +50,38 @@ namespace Common.Test
             Assert.IsTrue(result.All(n => _primeNumber.IsPrimeNumber(n)));
         }
 
-        [DataTestMethod]
-        [DataRow(6, [2,3])]
-        public void ReturnListOfPrimeNumber(int value1, int[] value2)
+        [TestMethod]
+        public void ReturnListOf3PrimeNumber()
         {
-            var result = _primeNumber.DecompositionInPrimeNumber(value1);
+            var numberToDecompose = 42;
+            var expected = new int[]{2, 3, 7}; 
 
-            Assert.AreEqual(value2.Count(), result.Count);
+            var result = _primeNumber.DecompositionInPrimeNumber(numberToDecompose);
 
+            Assert.AreEqual(expected.Count(), result.Count);
+            Assert.IsTrue(result.Where(n => n.Equals(expected[0])).Any());
+            Assert.IsTrue(result.Where(n => n.Equals(expected[0])).Count() == 1);
+            Assert.IsTrue(result.Where(n => n.Equals(expected[1])).Any());
+            Assert.IsTrue(result.Where(n => n.Equals(expected[1])).Count() == 1);
+            Assert.IsTrue(result.Where(n => n.Equals(expected[2])).Any());
+            Assert.IsTrue(result.Where(n => n.Equals(expected[2])).Count() == 1);
+        }
+
+        [TestMethod]
+        public void ReturnListOf4PrimeNumber()
+        {
+            var numberToDecompose =1155;
+            var expected = new int[]{3, 5, 7, 11}; 
+
+            var result = _primeNumber.DecompositionInPrimeNumber(numberToDecompose);
+
+            Assert.AreEqual(expected.Count(), result.Count);
+            Assert.IsTrue(result.Where(n => n.Equals(expected[0])).Any());
+            Assert.IsTrue(result.Where(n => n.Equals(expected[0])).Count() == 1);
+            Assert.IsTrue(result.Where(n => n.Equals(expected[1])).Any());
+            Assert.IsTrue(result.Where(n => n.Equals(expected[1])).Count() == 1);
+            Assert.IsTrue(result.Where(n => n.Equals(expected[2])).Any());
+            Assert.IsTrue(result.Where(n => n.Equals(expected[2])).Count() == 1);
         }
     }
 }
